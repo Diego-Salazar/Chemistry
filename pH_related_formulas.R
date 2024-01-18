@@ -23,10 +23,11 @@ pH_val_hydroxy <- function(hydroxide_conc) {
   pOH = -log10(hydroxid_conc)
   14 - pOH
 }
---------------------------------------------------------------------------------
+
+  
 #' `OH_conc` returns the hydroxide ion concentration in solution
 #'
-#' @param pOH pH value
+#' @param pOH pOH value
 #' @return the hydroxide ion concentration
 OH_conc <- function(pOH) {
   10^-pOH
